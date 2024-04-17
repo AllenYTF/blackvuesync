@@ -1,5 +1,5 @@
-FROM alpine:3.15.0
-LABEL maintainer="Alessandro Colomba https://github.com/acolomba"
+FROM alpine:3.19.1
+LABEL maintainer="Allen Yan https://github.com/allenytf"
 
 RUN apk add --update bash python3 shadow tzdata \
     && rm -rf /var/cache/apk/* \
